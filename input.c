@@ -69,10 +69,12 @@ static const int g_KeyMap[][2] = {
    { SDLK_LALT,      kKeyMenu },
    { SDLK_RALT,      kKeyMenu },
    { SDLK_KP_0,      kKeyMenu },
+   { SDLK_j,         kKeyMenu },
    { SDLK_RETURN,    kKeySearch },
    { SDLK_SPACE,     kKeySearch },
    { SDLK_KP_ENTER,  kKeySearch },
    { SDLK_LCTRL,     kKeySearch },
+   { SDLK_k,         kKeySearch },
    { SDLK_PAGEUP,    kKeyPgUp },
    { SDLK_KP_9,      kKeyPgUp },
    { SDLK_PAGEDOWN,  kKeyPgDn },
@@ -82,13 +84,13 @@ static const int g_KeyMap[][2] = {
    { SDLK_END,       kKeyEnd },
    { SDLK_KP_1,      kKeyEnd },
    { SDLK_r,         kKeyRepeat },
-   { SDLK_a,         kKeyAuto },
-   { SDLK_d,         kKeyDefend },
-   { SDLK_e,         kKeyUseItem },
-   { SDLK_w,         kKeyThrowItem },
-   { SDLK_q,         kKeyFlee },
+   { SDLK_l,         kKeyAuto },
+   { SDLK_h,         kKeyDefend },
+   { SDLK_u,         kKeyUseItem },
+   { SDLK_y,         kKeyThrowItem },
+   { SDLK_o,         kKeyFlee },
    { SDLK_f,         kKeyForce },
-   { SDLK_s,         kKeyStatus }
+   { SDLK_i,         kKeyStatus }
 };
 
 static VOID
